@@ -1,0 +1,44 @@
+body{
+    background-color: darkturquoise;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;    
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section{
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 900;    
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#horario{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+div img{
+    margin: 20px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 900;    
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}

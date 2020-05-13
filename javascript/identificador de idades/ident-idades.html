@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Identificador de Idades</title>
+</head>
+<body>
+    <header>
+        <h1>Identificador de Idades</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="ano" id="ano" min="1">
+            </p>
+
+            <p>Sexo:
+                <label for="sexm" id="lbm">Masculino</label>
+                <input type="radio" name="sex" id="sexm" checked>
+            
+                <label for="sexf" id="lbf">Feminino</label>
+                <input type="radio" name="sex" id="sexf">
+            </p>       
+
+            <input type="button" value="verificar" onclick="verificar()" id="botao">
+        </div>
+
+        <div id="cxres">
+            <p>resultado:</p>
+            <div id="resp"></div>
+        </div>
+    </section>
+
+    <footer>
+        <h5>&copy; Identificador de Idades</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

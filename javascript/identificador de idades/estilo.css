@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(50deg,#ffc4e9,#cce9f0,#ffcccc,#00ccff,#ff00ff,#6666cc,#cc6699,#4d4d4d,#ba89c7,#e6e6e6);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;    
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#ano{
+    text-align: center;
+}
+
+section{
+    width: 500px;
+    height: 480px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+p{
+    margin-left: 10px;
+}
+
+#lbm, #lbf{
+    color: gray;
+}
+
+#botao{
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#cxres{
+    border: gray 1px solid;
+    border-radius: 15px;
+    height: 300px;
+    margin: 0px 10px 0px 10px;
+}
+
+#resp{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#foto{
+    margin-top: 25px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 900;    
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
