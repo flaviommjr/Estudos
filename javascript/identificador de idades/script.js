@@ -26,31 +26,31 @@ function verificar()
             {
                 //bebe
                 genero = 'Bebê (menino)'
-                img.setAttribute('src','imagens/bebe-masc.png')
+                img.setAttribute('src','bebe-masc.png')
             }
             else if(resultado < 11)
             {
                 //crianca
                 genero = 'Criança (menino)'
-                img.setAttribute('src','imagens/crianca-masc.png')
+                img.setAttribute('src','crianca-masc.png')
             }
             else if(resultado < 18)
             {
                 //jovem
                 genero = 'Jovem (Homem)'
-                img.setAttribute('src','imagens/jovem-masc.png')
+                img.setAttribute('src','jovem-masc.png')
             }
             else if(resultado < 60)
             {
                 //adulto
                 genero = 'Adulto (Homem)'
-                img.setAttribute('src','imagens/adulto-masc.png')
+                img.setAttribute('src','adulto-masc.png')
             }
             else
             {
                 //idoso
                 genero = 'Idoso (Homem)'
-                img.setAttribute('src','imagens/idoso-masc.png')
+                img.setAttribute('src','idoso-masc.png')
             }
         }
         else if(sex[1].checked)
@@ -59,31 +59,31 @@ function verificar()
             {
                 //bebe
                 genero = 'Bebê (menina)'
-                img.setAttribute('src','imagens/bebe-fem.png')
+                img.setAttribute('src','bebe-fem.png')
             }
             else if(resultado < 10)
             {
                 //crianca
                 genero = 'Criança (menina)'
-                img.setAttribute('src','imagens/crianca-fem.png')
+                img.setAttribute('src','crianca-fem.png')
             }
             else if(resultado < 17)
             {
                 //jovem
                 genero = 'Jovem (Mulher)'
-                img.setAttribute('src','imagens/jovem-fem.png')
+                img.setAttribute('src','jovem-fem.png')
             }
             else if(resultado < 60)
             {
                 //adulto
                 genero = 'Adulto (Mulher)'
-                img.setAttribute('src','imagens/adulto-fem.png')
+                img.setAttribute('src','adulto-fem.png')
             }
             else
             {
                 //idoso
                 genero = 'Idoso (Mulher)'
-                img.setAttribute('src','imagens/idoso-fem.png')
+                img.setAttribute('src','idoso-fem.png')
             }
         }
         resp.style.textAlign = 'center'
