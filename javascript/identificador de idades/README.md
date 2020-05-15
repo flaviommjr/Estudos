@@ -5,7 +5,7 @@
 
 
 
-![preview](preview.png)
+![preview](imagens/preview.png)
 
 
 1. Adicione o ano de nascimento
