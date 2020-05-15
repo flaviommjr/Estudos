@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+    <section>
+        <div>
+            <div>
+                <span>
+                    <label for="inicio">Início: </label>
+                    <input type="number" name="inicio" id="inicio" autofocus>
+                </span>
+                
+                <span>
+                    <label for="fim">Fim: </label>
+                    <input type="number" name="fim" id="fim">
+                </span>
+
+                <span>
+                    <label for="passo">Passo: </label>
+                    <input type="number" name="passo" id="passo">
+                </span>
+            </div>
+            
+            <div id="bot">
+                <input type="button" value="contar" id="botao" onclick="contar()">
+            </div>
+        </div>
+
+        <div id="result">
+            Resultado:
+
+            <div id="resultado"></div>
+        </div>
+    </section>
+
+    <footer>
+        <h5>&copy; Contador</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
