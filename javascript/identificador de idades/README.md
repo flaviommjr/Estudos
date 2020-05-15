@@ -1,14 +1,20 @@
-﻿#IDENTIFICADOR DE IDADES#
-
-Programa criado para prática de estudos
+# IDENTIFICADOR DE IDADES
 
 
+### Programa criado para prática de estudos :nerd_face:
 
-![preview](preview.png)
+
+
+![preview](imagens/preview.png)
 
 
 1. Adicione o ano de nascimento
-2. Indique o sexo
-3. Clique em verificar
+1. Indique o sexo
+1. Clique em verificar
+
+
+
+
+### Caso queira visualizar os arquivos do programa, clique [aqui](https://github.com/flaviommjr/Estudos/tree/master/javascript/identificador%20de%20idades)
 
 
