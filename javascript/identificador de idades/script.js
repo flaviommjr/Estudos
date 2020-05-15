@@ -10,7 +10,11 @@ function verificar()
 
     if(anoUsuario.value.length == 0 || Number(anoUsuario.value)  > anoAtual)
     {
-        window.alert(diaAtual)
+        window.alert('[ERRO] - Necessário indicar o ano de nascimento!')
+    }
+    else if(anoUsuario.value.length < 4 || anoUsuario.value.length > 4)
+    {
+        window.alert('[ERRO] - Digite o ano de nascimento com 4 algarismos!')
     }
     else
     {
