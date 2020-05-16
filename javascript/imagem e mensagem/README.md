@@ -2,6 +2,7 @@
 
 ### Programa elaborado para prática de estudos
 
+Programa exibe data e horário e modifica background e imagem conforme o horário.
 
 ![bom-dia](imagens/bom-dia.png)
 
