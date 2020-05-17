@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <title>Gerador de Tabuada</title>
+</head>
+<body>
+    <header>
+        <h1>Gerador de Tabuada</h1>
+    </header>
+
+    <section>
+        <div id="opcoes">
+            <div>
+                <span>Sentido:</span>
+                <span id="sentopcoes">
+                    <label for="prog">Progressivo</label>
+                    <input type="radio" name="sentido" id="prog" checked>
+
+                    <label for="reg">Regressivo</label>
+                    <input type="radio" name="sentido" id="reg">
+                </span>
+            </div>
+
+            <div id="qtd">
+                <span>Quantidade de tabuadas geradas:</span>
+                    
+                <span>
+                    <label for="qtd1">1</label>
+                    <input type="radio" name="qtd" id="qtd1" checked onclick="mostrar(num2)">
+                    <label for="qtd2">2</label>
+                    <input type="radio" name="qtd" id="qtd2" onclick="mostrar(num2)">                    
+                </span>
+            </div>
+        </div>
+
+        <div id="entrada">
+            <span>
+                <label id="lab1" for="numero">Digite um número:</label>
+                <input type="number" name="numero" id="numero" autofocus>
+            </span>
+    
+            <span>
+                <input type="button" value="gerar" onclick="gerar()" id="botao">
+            </span>
+
+            <div id="num2">
+                <label for="numero2">Digite o 2° número:</label>
+                <input type="number" name="numero" id="numero2">
+            </div>
+        </div>
+
+        <div class="container" id="boxresultado">                        
+            <div id="resultado1"></div>
+            <div id="resultado2"></div>                
+        </div>
+    </section>
+
+    <footer>
+        <h5>&copy; Gerador de Tabuada</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
