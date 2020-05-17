@@ -17,8 +17,18 @@
     <section>
         <div id="opcoes">
             <div>
-                <span>Sentido:</span>
-                <span id="sentopcoes">
+                <span>Quantidade de tabuadas geradas:</span>                    
+                <span id="qtdopcoes">
+                    <label for="qtd1">1</label>
+                    <input type="radio" name="qtd" id="qtd1" checked onclick="mostrar(num2)">
+                    <label for="qtd2">2</label>
+                    <input type="radio" name="qtd" id="qtd2" onclick="mostrar(num2)">                    
+                </span>
+            </div>
+
+            <div id="sentido1">
+                <span id="titSentido">Sentido:</span>
+                <span class="sentopcoes">
                     <label for="prog">Progressivo</label>
                     <input type="radio" name="sentido" id="prog" checked>
 
@@ -27,14 +37,14 @@
                 </span>
             </div>
 
-            <div id="qtd">
-                <span>Quantidade de tabuadas geradas:</span>
-                    
-                <span>
-                    <label for="qtd1">1</label>
-                    <input type="radio" name="qtd" id="qtd1" checked onclick="mostrar(num2)">
-                    <label for="qtd2">2</label>
-                    <input type="radio" name="qtd" id="qtd2" onclick="mostrar(num2)">                    
+            <div id="sentido2">
+                <span>2° sentido:</span>
+                <span class="sentopcoes">
+                    <label for="prog2">Progressivo</label>
+                    <input type="radio" name="sentid" id="prog2" checked>
+
+                    <label for="reg2">Regressivo</label>
+                    <input type="radio" name="sentid" id="reg2">
                 </span>
             </div>
         </div>
@@ -56,8 +66,8 @@
         </div>
 
         <div class="container" id="boxresultado">                        
-            <div id="resultado1"></div>
-            <div id="resultado2"></div>                
+            <select name="tabuada" id="resultado1" size="10"></select>
+            <select name="tabuada" id="resultado2" size="10"></select>                
         </div>
     </section>
 

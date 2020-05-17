@@ -28,14 +28,25 @@ section{
     margin-bottom: 10px;
 }
 
-#sentopcoes{
+#qtdopcoes{
     border: darkgray 1px solid;
     padding: 2px 10px;
     background: linear-gradient(180deg, ghostwhite, gainsboro);
 }
 
-#qtd{
-    margin-top: 15px;
+.sentopcoes{
+    border: darkgray 1px solid;
+    padding: 2px 10px;
+    background: linear-gradient(180deg, ghostwhite, gainsboro);
+}
+
+#sentido1{
+    margin-top: 10px;
+}
+
+#sentido2{
+    margin-top: 10px;
+    display: none;
 }
 
 #num2{
@@ -80,7 +91,6 @@ section{
     border: darkgray 1px solid;
     width: 150px;
     height: 150px;
-    overflow-y: auto;
 }
 
 #resultado2{
@@ -89,7 +99,6 @@ section{
     border: darkgray 1px solid;
     width: 150px;
     height: 150px;
-    overflow-y: auto;
     display: none;
 }
 
